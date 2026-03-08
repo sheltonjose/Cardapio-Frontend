@@ -9,7 +9,7 @@ interface CardProps{
 
 
 
-export function Card({price}: CardProps){
+export function Card({price, image, title}: CardProps){
     return(
         <div className="card">
             <img src="" alt="" />
